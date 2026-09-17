@@ -62,10 +62,10 @@
 
 Для запуска используется Live Server в Visual Studio Code:
 
-Открыть проект в Visual Studio Code.
-Установить расширение Live Server, если оно ещё не установлено.
-Открыть index.html.
-Нажать Go Live в нижней панели Visual Studio Code.
+1. Открыть проект в Visual Studio Code.
+2. Установить расширение Live Server, если оно ещё не установлено.
+3. Открыть `index.html`.
+4. Нажать **Go Live** в нижней панели Visual Studio Code.
 
 ## Фасовки
 
