@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ананасовый улун — Чайный Бум (Teaboom.ru)</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <article class="product-card">
+        <div class="product-card__gallery">
+          <figure class="product-card__image-wrapper">
+            <img
+              src="assets/images/pineapple-oolong.png"
+              alt=""
+              class="product-card__image"
+            />
+          </figure>
+        </div>
+
+        <div class="product-card__content">
+          <div class="product-card__category">
+            <span>Категория:</span>
+            <a href="#">Китайский светлый ароматизированный улун</a>
+          </div>
+
+          <h1 class="product-card__title">Ананасовый улун</h1>
+
+          <p class="product-card__description">
+            Прекрасный светлый улун с ярким и насыщенным ароматом спелого
+            ананаса. Обладает мягким вкусом с фруктовым послевкусием и дарит
+            долгое ощущение свежести.
+          </p>
+
+          <fieldset class="product-card__weight-select">
+            <legend class="product-card__section-label">
+              Выберите фасовку:
+            </legend>
+            <div class="product-card__options">
+              <label class="weight-option">
+                <input
+                  type="radio"
+                  name="weight"
+                  value="100"
+                  data-price="326,40 ₽"
+                  data-old-price="349,20 ₽"
+                  data-sku="01306"
+                  checked
+                />
+                <span class="weight-option__btn">100 г</span>
+              </label>
+
+              <label class="weight-option">
+                <input
+                  type="radio"
+                  name="weight"
+                  value="500"
+                  data-price="1 432 ₽"
+                  data-old-price="1 646 ₽"
+                  data-sku="01307"
+                />
+                <span class="weight-option__btn">500 г</span>
+              </label>
+
+              <label class="weight-option">
+                <input
+                  type="radio"
+                  name="weight"
+                  value="1000"
+                  data-price="2 064 ₽"
+                  data-old-price="2 592 ₽"
+                  data-sku="01308"
+                />
+                <span class="weight-option__btn">1000 г</span>
+              </label>
+
+              <label class="weight-option">
+                <input
+                  type="radio"
+                  name="weight"
+                  value="5000"
+                  data-price="6 320 ₽"
+                  data-old-price="8 710 ₽"
+                  data-sku="01309"
+                />
+                <span class="weight-option__btn">5000 г</span>
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="product-card__info-row">
+            <p class="product-card__sku">
+              Артикул: <span id="product-sku">01306</span>
+            </p>
+
+            <div class="product-card__price-box">
+              <span class="product-card__current-price" id="product-price"
+                >326,40 ₽</span
+              >
+              <s class="product-card__old-price" id="product-old-price"
+                >349,20 ₽</s
+              >
+            </div>
+          </div>
+
+          <span
+            id="product-status"
+            class="sr-only"
+            aria-live="polite"
+            aria-atomic="true"
+          ></span>
+
+          <button type="button" class="product-card__buy-btn">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path
+                d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+              ></path>
+            </svg>
+            В корзину
+          </button>
+        </div>
+      </article>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
